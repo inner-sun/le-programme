@@ -1,5 +1,13 @@
 .program{
-  width: 512px;
+  width: 1024px;
+  transform: scale(0.75);
   background: url(/src/assets/images/background.jpg) no-repeat center center / cover;
   border: 1px solid var(--mono-0);
+}
+
+.dayList{
+  display: flex;
+  flex-direction: column;
+  margin-top: -16px;
+  gap: var(--spacing-8);
 }
