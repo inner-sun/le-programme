@@ -6,7 +6,7 @@ import styles from '~/components/program/program.module.scss'
 
 const Program: Component<ProgramProps> = (props) => {
   return (
-    <div class={styles.program}>
+    <div class={styles.program} id='le-programme'>
       <Header />
       <div class={styles.dayList}>
         <DayGroup

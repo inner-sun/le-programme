@@ -1,0 +1,22 @@
+.exportForm{
+  padding: var(--spacing-8);
+}
+
+.exportButton{
+  height: 44px;
+  padding: 0 var(--spacing-8);
+  background-color: var(--mono-700);
+  border-radius: 44px;
+  font-size: var(--font-500);
+  font-weight: bold;
+  color: var(--mono-0);
+
+  &:hover{
+    box-shadow: 0 0 0 2px rgba(white, 0.25);
+    transform: scale(1.025);
+  }
+
+  &:active{
+    transform: scale(0.975);
+  }
+}
