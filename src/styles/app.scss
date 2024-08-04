@@ -17,10 +17,10 @@
   --sides: var(--col);
 
   /* Colors */
-  --mono-900: #22273b;
-  --mono-700: #0d2a36;
-  --mono-500: #4a6380;
-  --mono-400: #90a2b8;
+  --mono-900: #0D0E10;
+  --mono-700: #36185B;
+  --mono-500: #664D8B;
+  --mono-400: #687CAF;
   --mono-300: #b7cde1;
   --mono-100: #e4eeee;
   --mono-50: #eff3f5;
@@ -42,12 +42,9 @@
   --font-200: 11px;
   
   /* Spacing */
-  --spacing-2: 6px;
+  --spacing-2: 4px;
   --spacing-4: 12px;
-  --spacing-8: 16px;
-  --spacing-16: 21px;
-  --spacing-24: 28px;
-  --spacing-32: 48px;
+  --spacing-8: 24px;
 
   /* Tokens */
   --radius-small: 6px;
@@ -67,9 +64,9 @@
 }
 
 body{
-  background: var(--mono-0);
+  background: var(--mono-900);
   font-family: var(--regular-font);
-  color: var(--mono-900);
+  color: var(--mono-0);
 
   *{
     font-family: var(--regular-font);
