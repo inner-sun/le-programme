@@ -1,0 +1,21 @@
+.channel{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  padding: 0 var(--spacing-6);
+  border-radius: 36px;
+  font-size: var(--font-700);
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.lasainte{
+  background: linear-gradient(175deg, #C7AAF2 -50%, #36185B 66%, #6D17D8 100%);
+  color: white;
+}
+
+.evaboreal{
+  background-color: var(--mono-900);
+  color: #1ED02F;
+}

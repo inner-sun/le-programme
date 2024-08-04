@@ -1,3 +1,13 @@
 .channelDetails{
-  
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-4);
+}
+
+.time{
+  font-size: var(--font-700);
+  font-weight: bold;
+  letter-spacing: calc(var(--font-700) * 0.025);
+  color: var(--mono-500);
+  text-transform: uppercase;
 }
